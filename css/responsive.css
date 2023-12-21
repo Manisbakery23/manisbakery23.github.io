@@ -1,0 +1,93 @@
+/* responsive.css */
+
+/* Common Styles for All Screens */
+
+/* Styles for Screens between 768px and 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-search {
+        padding: 15px 0;
+    }
+}
+
+/* Styles for Screens between 599px and 767px */
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .mg {
+        margin: 0;
+    }
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
+    }
+    /* ... (other styles) */
+}
+
+/* Styles for Screens between 280px and 599px */
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    /* ... (other styles) */
+    .btn_main {
+        display: none;
+    }
+    .about_text {
+        font-size: 31px;
+    }
+    /* ... (other styles) */
+}
+
+/* Larger Screens (1200px - 1500px) */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .carousel-control-next {
+        top: 70%;
+        right: 1022px;
+    }
+    /* ... (other styles) */
+}
+
+/* Medium Screens (992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .titlepage h2::after {
+        width: 58%;
+    }
+    .about-box .titlepage h2::after {
+        width: 52%;
+        right: -221px;
+    }
+    /* ... (other styles) */
+}
+
+/* Smaller Screens (576px - 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .main-menu ul > li a {
+        padding: 7px 6px;
+    }
+    .main-menu ul > li a {
+        font-size: 14px;
+    }
+    /* ... (other styles) */
+}
+
+/* Very Small Screens (up to 575px) */
+@media (max-width: 575px) {
+    .carousel-caption {
+        display: none;
+    }
+    .header {
+        padding-top: 0;
+    }
+    .logo {
+        float: inherit;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    /* ... (other styles) */
+}
+
+/* Additional Media Queries... */
